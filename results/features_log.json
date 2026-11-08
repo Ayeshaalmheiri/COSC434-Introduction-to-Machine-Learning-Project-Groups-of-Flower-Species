@@ -5,7 +5,7 @@
     "gpu": false
   },
   "torch": "2.15.0+cpu",
-  "handcrafted_seconds": 40.6,
+  "handcrafted_seconds": 15.2,
   "feature_sha256": {
     "hsv_hist": "f3000ce9e39bf5e1c68038c4662c6e29b3ebf2d069da9a6bb0a5f16e497d8d40",
     "lbp": "ec6f5398e66481db657e8ae5f247ace79554b76aad4790c4f7b16591841aaf93",
