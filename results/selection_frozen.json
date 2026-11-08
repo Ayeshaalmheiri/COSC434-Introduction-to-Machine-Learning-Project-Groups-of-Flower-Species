@@ -1,0 +1,76 @@
+{
+  "frozen_at": "2026-11-08T10:37:36+00:00",
+  "rule": "per representation, highest mean silhouette on train+val over method x PCA x k",
+  "k_grid": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "k_report": [
+    50,
+    75,
+    102,
+    130
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "feature_sha256": {
+    "hsv_hist": "f3000ce9e39bf5e1c68038c4662c6e29b3ebf2d069da9a6bb0a5f16e497d8d40",
+    "lbp": "ec6f5398e66481db657e8ae5f247ace79554b76aad4790c4f7b16591841aaf93",
+    "mean_rgb": "abd618ed1f4317405bccf3c0c848cd842a99ceebc9b95972822c50e9f7571684",
+    "resnet50": "19e59843828462445ba7ab39ed3cacd21d43bcdbca6e45c45acf84987e08d35f",
+    "rgb_hist": "9d20da1e6c4a9970d5180ea155dc7b4cc25e730d19c2ea13ab6cb99cbe620294"
+  },
+  "choices": {
+    "mean_colour": {
+      "method": "kmeans",
+      "pca": false,
+      "k": 10,
+      "silhouette": 0.2702515447316042,
+      "davies_bouldin": 1.0538120596306724
+    },
+    "hand_rgb_lbp": {
+      "method": "kmeans",
+      "pca": false,
+      "k": 10,
+      "silhouette": 0.04850995070802423,
+      "davies_bouldin": 2.7092389630011366
+    },
+    "hand_hsv_lbp": {
+      "method": "kmeans",
+      "pca": true,
+      "k": 10,
+      "silhouette": 0.047487934433318196,
+      "davies_bouldin": 2.9286535812828096
+    },
+    "resnet50": {
+      "method": "average_cosine",
+      "pca": false,
+      "k": 10,
+      "silhouette": 0.0790889592603722,
+      "davies_bouldin": 2.0466131605021185
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hardware": {
+    "cpu": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "threads": 8,
+    "gpu": false
+  },
+  "torch": "2.15.0+cpu",
+  "handcrafted_seconds": 40.6,
+  "feature_sha256": {
+    "hsv_hist": "f3000ce9e39bf5e1c68038c4662c6e29b3ebf2d069da9a6bb0a5f16e497d8d40",
+    "lbp": "ec6f5398e66481db657e8ae5f247ace79554b76aad4790c4f7b16591841aaf93",
+    "mean_rgb": "abd618ed1f4317405bccf3c0c848cd842a99ceebc9b95972822c50e9f7571684",
+    "resnet50": "19e59843828462445ba7ab39ed3cacd21d43bcdbca6e45c45acf84987e08d35f",
+    "rgb_hist": "9d20da1e6c4a9970d5180ea155dc7b4cc25e730d19c2ea13ab6cb99cbe620294"
+  }
+}

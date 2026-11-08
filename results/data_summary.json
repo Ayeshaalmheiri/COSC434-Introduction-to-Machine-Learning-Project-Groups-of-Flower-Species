@@ -1,0 +1,29 @@
+{
+  "files_md5": {
+    "102flowers.tgz": "52808999861908f626f3c1f4e79d11fa",
+    "imagelabels.mat": "e0620be6f572b9609742df49c70aed4d",
+    "setid.mat": "a5357ecc9cb78c4bef273ce3793fc85c"
+  },
+  "n_images": 8189,
+  "split_sizes": {
+    "train": 1020,
+    "val": 1020,
+    "test": 6149,
+    "selection": 2040
+  },
+  "split_disjoint_and_complete": true,
+  "n_classes": 102,
+  "images_per_class": {
+    "min": 40,
+    "median": 66.0,
+    "max": 258
+  },
+  "image_width": {
+    "min": 500,
+    "max": 1024
+  },
+  "image_height": {
+    "min": 500,
+    "max": 1168
+  }
+}
